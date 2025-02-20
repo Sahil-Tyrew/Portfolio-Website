@@ -1,0 +1,158 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Navigation Bar */
+.navbar {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.navbar .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    padding: 0;
+    margin: 0;
+}
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav-links a:hover {
+    color: #00bcd4;
+}
+
+/* Hero Section */
+.hero {
+    background: #00bcd4;
+    color: #fff;
+    text-align: center;
+    padding: 5em 0;
+}
+.hero h2 {
+    font-size: 2.5em;
+    margin: 0;
+}
+.hero span {
+    color: #5a98db;
+}
+.hero .btn {
+    background: #333;
+    color: #fff;
+    padding: 0.8em 1.5em;
+    text-decoration: none;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 1em;
+}
+.hero .btn:hover {
+    background: #555;
+}
+
+/* Sections */
+section {
+    padding: 4em 0;
+    text-align: center;
+}
+section h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: #00bcd4;
+}
+
+/* Skills */
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+.skills li {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+
+/* Projects */
+.project-card {
+    background: #fff;
+    padding: 1.5em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 1em 0;
+}
+.project-card h3 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+/* Resume */
+.resume .btn {
+    background: #00bcd4;
+    color: #fff;
+    padding: 0.8em 1.5em;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.resume .btn:hover {
+    background: #0097a7;
+}
+
+/* Contact Form */
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.contact input, .contact textarea {
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1em;
+    width: 100%;
+}
+.contact button {
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    padding: 1em;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+}
+.contact button:hover {
+    background: #0097a7;
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    font-size: 0.9em;
+}
